@@ -1,8 +1,8 @@
 const no = document.getElementById("no");
 const yes = document.getElementById('yes');
 function moveTarget(){
-    const maxWidth = 280;
-    const maxHeight = 280;
+    const maxWidth = 230;
+    const maxHeight = 230;
 
     const randomX = Math.floor(Math.random() * maxWidth);
     const randomY = Math.floor(Math.random() * maxHeight);
