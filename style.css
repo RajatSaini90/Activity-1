@@ -37,6 +37,7 @@ h1{
 }
 
 #target{
+    width: 20vw;
     position: absolute;
     left: 270px;
     top: 50px;
@@ -52,6 +53,7 @@ h1{
 }
 
 #yes{
+    width: 20vw;
     position: absolute;
     left: 140px;
     top: 50px;
@@ -66,3 +68,9 @@ h1{
     transition: top 0.5s, left 0.5s;
 }
 
+@media only screen and (max-width: 600px) {
+    #game-base {
+        width: 90%; /* Adjust the width for smaller screens */
+        height: 50vh; /* Adjust the height for smaller screens */
+    }
+}
