@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
  
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -36,10 +36,9 @@ h1{
     text-align: center;
 }
 
-#target{
-    width: 20vw;
-    position: absolute;
-    left: 270px;
+#no{
+    position: relative;
+    left: 200px;
     top: 50px;
     border: none;
     background-image: linear-gradient(to right top, #e22d78d7, #ea2563e0, #ef254dd8, #ef2f32cd, #eb3e12d6);
@@ -53,9 +52,8 @@ h1{
 }
 
 #yes{
-    width: 20vw;
-    position: absolute;
-    left: 140px;
+    position: relative;
+    /* left: 20px; */
     top: 50px;
     color: #fff;
     border: none;
@@ -68,9 +66,4 @@ h1{
     transition: top 0.5s, left 0.5s;
 }
 
-@media only screen and (max-width: 600px) {
-    #game-base {
-        width: 90%; /* Adjust the width for smaller screens */
-        height: 50vh; /* Adjust the height for smaller screens */
-    }
-}
+

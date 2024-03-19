@@ -1,28 +1,27 @@
-const target = document.getElementById("target");
+const no = document.getElementById("no");
 const yes = document.getElementById('yes');
 function moveTarget(){
-    const maxWidth = 400;
-    const maxHeight = 400;
+    const maxWidth = 280;
+    const maxHeight = 280;
 
     const randomX = Math.floor(Math.random() * maxWidth);
     const randomY = Math.floor(Math.random() * maxHeight);
 
-    target.style.left = randomX + 'px';
-    target.style.top = randomY + 'px';
+    yes.style.left = randomX + 'px';
+    yes.style.top = randomY + 'px';
 }
 
-target.addEventListener('mouseenter', function(){
+yes.addEventListener('touchstart', function(){
     moveTarget();
 });
 
-yes.addEventListener('click', function(){
+no.addEventListener('click', function(){
+const heading = document.querySelector("h1");
 
-    const heading = document.querySelector("h1");
+    heading.textContent = " 😒😒😒😒";
+    heading.style.marginTop = '55%';
     
-    heading.textContent = "Thank You My Love💕💕💕";
-    heading.style.marginTop = '40%';
- 
 
+    no.style.display = 'none';
     yes.style.display = 'none';
-    target.style.display = 'none';
 });
