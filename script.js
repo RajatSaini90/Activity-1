@@ -1,8 +1,10 @@
 const no = document.getElementById("no");
 const yes = document.getElementById('yes');
+const gameBase = document.getElementById('game-base');
+
 function moveTarget(){
-    const maxWidth = 230;
-    const maxHeight = 230;
+    const maxWidth = 200;
+    const maxHeight = 200;
 
     const randomX = Math.floor(Math.random() * maxWidth);
     const randomY = Math.floor(Math.random() * maxHeight);
