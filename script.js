@@ -19,16 +19,16 @@ yes.addEventListener('touchstart', function(){
 
 yes.addEventListener('mouseenter', function(){
     moveTarget();
-    const heading = document.querySelector("h1");
+    // const heading = document.querySelector("h1");
 
-    yes.addEventListener("click",function(){
+    // yes.addEventListener("click",function(){
         
-        heading.textContent = " 😜😜😜😜";
-        heading.style.marginTop = '50%';
+    //     heading.textContent = " 😜😜😜😜";
+    //     heading.style.marginTop = '50%';
     
-        no.style.display = 'none';
-        yes.style.display = 'none';
-    });
+    //     no.style.display = 'none';
+    //     yes.style.display = 'none';
+    // });
 });
 
 no.addEventListener('click', function(){
