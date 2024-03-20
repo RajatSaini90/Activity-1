@@ -3,8 +3,8 @@ const yes = document.getElementById('yes');
 const gameBase = document.getElementById('game-base');
 
 function moveTarget(){
-    const maxWidth = 200;
-    const maxHeight = 200;
+    const maxWidth = 250;
+    const maxHeight = 250;
 
     const randomX = Math.floor(Math.random() * maxWidth);
     const randomY = Math.floor(Math.random() * maxHeight);
