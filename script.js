@@ -17,13 +17,18 @@ yes.addEventListener('touchstart', function(){
     moveTarget();
 });
 
+yes.addEventListener('mouseenter', function(){
+    moveTarget();
+});
+
 no.addEventListener('click', function(){
 const heading = document.querySelector("h1");
 
     heading.textContent = " 😒😒😒😒";
-    heading.style.marginTop = '55%';
+    heading.style.marginTop = '50%';
     
 
     no.style.display = 'none';
     yes.style.display = 'none';
 });
+
